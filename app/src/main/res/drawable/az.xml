@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="140dp"
+    android:height="190dp"
+    android:viewportWidth="140"
+    android:viewportHeight="190">
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="m21,5h103c8.86,0 16,7.136 16,16v153c0,8.86 -7.14,16 -16,16h-103c-8.864,0 -16,-7.14 -16,-16v-153c0,-8.864 7.136,-16 16,-16z"
+      android:fillAlpha="0.49804"/>
+  <path
+      android:pathData="m17,1h103c8.86,0 16,7.136 16,16v153c0,8.86 -7.14,16 -16,16h-103c-8.864,0 -16,-7.14 -16,-16v-153c0,-8.864 7.136,-16 16,-16z"
+      android:fillColor="#fff"/>
+  <path
+      android:pathData="m19,3h103c8.86,0 16,7.136 16,16v153c0,8.86 -7.14,16 -16,16h-103c-8.864,0 -16,-7.14 -16,-16v-153c0,-8.864 7.136,-16 16,-16z"
+      android:fillColor="#c7891f"/>
+  <path
+      android:pathData="m18,2h103c8.86,0 16,7.136 16,16v153c0,8.86 -7.14,16 -16,16h-103c-8.864,0 -16,-7.14 -16,-16v-153c0,-8.864 7.136,-16 16,-16z">
+    <aapt:attr name="android:fillColor">
+      <gradient 
+          android:startY="62.1"
+          android:startX="2"
+          android:endY="127.7"
+          android:endX="109"
+          android:type="linear">
+        <item android:offset="0" android:color="#FFEBF0D0"/>
+        <item android:offset="1" android:color="#FFFFFFEB"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      android:pathData="m22.167,10h94.413c8.13,0 14.67,6.541 14.67,14.667v140.25c0,8.12 -6.54,14.66 -14.67,14.66h-94.413c-8.126,0 -14.667,-6.54 -14.667,-14.66v-140.25c0,-8.129 6.541,-14.67 14.667,-14.67z">
+  </path>
+  <path
+      android:pathData="m22.167,10h94.413c8.13,0 14.67,6.541 14.67,14.667v140.25c0,8.12 -6.54,14.66 -14.67,14.66h-94.413c-8.126,0 -14.667,-6.54 -14.667,-14.66v-140.25c0,-8.129 6.541,-14.67 14.667,-14.67z"/>
+  <path
+      android:pathData="m22.156,9.375c-8.461,0 -15.281,6.82 -15.281,15.281v140.25c0,8.46 6.82,15.31 15.281,15.31h94.434c8.46,0 15.29,-6.85 15.29,-15.31v-140.25c0,-8.465 -6.83,-15.285 -15.29,-15.285h-94.434zM22.156,10.625h94.434c7.79,0 14.03,6.241 14.03,14.031v140.25c0,7.79 -6.24,14.06 -14.03,14.06h-94.434c-7.79,0 -14.031,-6.27 -14.031,-14.06v-140.25c0,-7.794 6.241,-14.035 14.031,-14.035z">
+  </path>
+</vector>
