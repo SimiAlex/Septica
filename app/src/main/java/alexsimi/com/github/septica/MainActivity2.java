@@ -312,7 +312,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         //computer setup
         for (int i = 0; i < computerCards.size(); ++i) {
-            computerCardsImageView[i].setImageResource(computerCards.get(i).getResourceId());
+            computerCardsImageView[i].setImageResource(R.drawable.az);
         }
 
         if (computerCards.size() < 4) {
@@ -520,16 +520,22 @@ public class MainActivity2 extends AppCompatActivity {
         }
     }
 
-    private void setupCards(ArrayList<Card> computerCards, ImageView[] computerCardsImageView) {
-        for (int i = 0; i < computerCards.size(); ++i)
-        {
-            computerCardsImageView[i].setImageResource(computerCards.get(i).getResourceId());
-            computerCardsImageView[i].setVisibility(View.VISIBLE);
+    private void setupCards(ArrayList<Card> listOfCards, ImageView[] cardsImageView) {
+        if(listOfCards == this.computerCards) {
+            for (int i = 0; i < listOfCards.size(); ++i) {
+                cardsImageView[i].setImageResource(R.drawable.az);
+                cardsImageView[i].setVisibility(View.VISIBLE);
+            }
         }
-
-        if (computerCards.size() < 4) {
-            for (int i = computerCards.size(); i < 4; ++i) {
-                computerCardsImageView[i].setVisibility(View.INVISIBLE);
+        else {
+            for (int i = 0; i < listOfCards.size(); ++i) {
+                cardsImageView[i].setImageResource(listOfCards.get(i).getResourceId());
+                cardsImageView[i].setVisibility(View.VISIBLE);
+            }
+        }
+        if (listOfCards.size() < 4) {
+            for (int i = listOfCards.size(); i < 4; ++i) {
+                cardsImageView[i].setVisibility(View.INVISIBLE);
             }
         }
     }
